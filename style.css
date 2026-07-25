@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #10131f, #1b1030);
+  min-height: 100vh;
+  color: #f1eefc;
+  padding: 30px 15px;
+}
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #a89fd6;
+  font-size: 0.95rem;
+}
+
+.mood-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.mood-btn {
+  border: 1px solid #3d3560;
+  background: #221c38;
+  color: #f1eefc;
+  padding: 18px 10px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.mood-btn .emoji {
+  font-size: 1.6rem;
+}
+
+.mood-btn:hover {
+  transform: translateY(-3px);
+  background: #2d2650;
+}
+
+.mood-btn.active {
+  background: linear-gradient(135deg, #ff7a59, #a259ff);
+  border-color: transparent;
+}
+
+.empty-state {
+  text-align: center;
+  color: #7a7098;
+  margin-top: 20px;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.song-card {
+  background: #221c38;
+  border: 1px solid #3d3560;
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.song-info .title {
+  font-weight: 600;
+  font-size: 1.02rem;
+}
+
+.song-info .artist {
+  font-size: 0.85rem;
+  color: #a89fd6;
+  margin-top: 2px;
+}
+
+.song-tag {
+  font-size: 0.75rem;
+  background: #3d3560;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.shuffle-btn {
+  display: block;
+  margin: 20px auto 0;
+  background: linear-gradient(135deg, #a259ff, #ff5478);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.shuffle-btn:hover {
+  transform: translateY(-2px);
+}

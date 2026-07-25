@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mood-Based Song Recommender</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <header class="app-header">
+      <h1>🎧 Mood Tunes</h1>
+      <p class="subtitle">Tell us your mood, we'll pick the songs</p>
+    </header>
+
+    <section class="mood-grid" id="moodGrid">
+      <!-- mood buttons injected by JS -->
+    </section>
+
+    <section class="results" id="results">
+      <p class="empty-state" id="emptyState">Pick a mood above to get recommendations 👆</p>
+      <div class="song-list" id="songList"></div>
+    </section>
+
+    <button class="shuffle-btn" id="shuffleBtn" style="display:none;">🔀 Shuffle More</button>
+  </div>
+
+  <script src="songs.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
