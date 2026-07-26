@@ -1,20 +1,22 @@
 # 🎧 Mood Tunes - Mood-Based Song Recommendation
 
-Mood Tunes is a simple and interactive web application that recommends songs based on the user's current mood. Users can choose a mood, and the application displays a random list of songs that match that mood.
+Mood Tunes is a simple and interactive web application that recommends songs based on the user's current mood. The application allows users to select a mood such as Happy, Sad, Stressed, Bored, Romantic, or Energetic and instantly displays a curated list of songs. Users can also shuffle the recommendations to discover more songs from the selected mood category.
 
-## ✨ Features
+## 🌟 Features
 
-- 😊 Choose from multiple moods
+- 🎵 Mood-based song recommendations
+- 😊 Six mood categories:
   - Happy
   - Sad
   - Stressed
   - Bored
   - Romantic
   - Energetic
-- 🎵 Displays song title, artist, and genre
-- 🔀 Shuffle button to get new recommendations
-- 📱 Responsive and clean user interface
-- ⚡ Built using Vanilla JavaScript
+- 🔀 Shuffle button for new recommendations
+- 🎤 Displays song title, artist, and genre
+- 📱 Responsive and user-friendly interface
+- ⚡ Fast and lightweight application
+- 🎨 Clean and modern UI
 
 ## 🛠️ Technologies Used
 
@@ -22,7 +24,7 @@ Mood Tunes is a simple and interactive web application that recommends songs bas
 - CSS3
 - JavaScript (ES6)
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 Mood-Tunes/
@@ -33,22 +35,92 @@ Mood-Tunes/
 └── README.md
 ```
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. Download or clone this repository.
-2. Open the project folder.
-3. Double-click **index.html** or open it in your browser.
-4. Select your mood and enjoy the recommended songs.
+### Clone the Repository
 
-## 🎯 Future Enhancements
+```bash
+git clone https://github.com/YOUR_USERNAME/Mood-Tunes.git
+```
 
-- Song search feature
-- Music preview using Spotify API
-- Favorite songs option
+### Navigate to the Project Folder
+
+```bash
+cd Mood-Tunes
+```
+
+### Run the Project
+
+Simply open **index.html** in your preferred web browser.
+
+No additional installation or dependencies are required.
+
+## 🎯 How It Works
+
+1. Open the application.
+2. Choose your current mood.
+3. The app displays a list of recommended songs.
+4. Click **Shuffle More** to get different song suggestions for the same mood.
+
+## 😊 Available Moods
+
+- 😄 Happy
+- 😢 Sad
+- 😖 Stressed
+- 🥱 Bored
+- 🥰 Romantic
+- ⚡ Energetic
+
+## 💡 Future Enhancements
+
+- Spotify API integration
+- YouTube music links
+- Song search functionality
+- Favorite playlist feature
+- User login system
+- More moods and song categories
 - Dark/Light mode
-- More moods and larger song collection
-- User login and personalized recommendations
+- AI-powered personalized recommendations
+
+## 📸 Screenshot
+
+Add a screenshot of your project here.
+
+```
+assets/screenshot.png
+```
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository.
+2. Create a new branch.
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch.
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
 
-Deepshikha
+**Deepshikha Singh**
+
+If you found this project helpful, don't forget to ⭐ the repository!
