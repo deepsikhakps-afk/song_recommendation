@@ -121,6 +121,6 @@ This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
 
-**Deepshikha Singh**
+**Deepshikha**
 
 If you found this project helpful, don't forget to ⭐ the repository!
