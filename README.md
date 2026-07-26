@@ -51,4 +51,4 @@ Mood-Tunes/
 
 ## 👩‍💻 Author
 
-Deepshikha Singh
+Deepshikha
