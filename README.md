@@ -84,7 +84,6 @@ No additional installation or dependencies are required.
 
 ## 📸 Screenshot
 
-Add a screenshot of your project here.
 
 ```
 assets/screenshot.png
