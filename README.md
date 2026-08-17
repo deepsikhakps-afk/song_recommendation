@@ -28,8 +28,6 @@ Mood Tunes is a simple and interactive web application that recommends songs bas
 
 ```
 Mood-Tunes/
-
-|
 │── index.html
 │── style.css
 │── script.js
