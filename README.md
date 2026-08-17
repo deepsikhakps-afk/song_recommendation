@@ -86,7 +86,6 @@ No additional installation or dependencies are required.
 ![alt text](image.png)
 
 ```
-assets/screenshot.png
 ```
 
 ## 🤝 Contributing
