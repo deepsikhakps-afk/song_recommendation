@@ -20,7 +20,7 @@ Mood Tunes is a simple and interactive web application that recommends songs bas
 
 ## 🛠️ Technologies Used
 
-- HTML5     For structure
+- HTML5     
 - CSS3
 - JavaScript (ES6)
 
