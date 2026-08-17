@@ -83,7 +83,7 @@ No additional installation or dependencies are required.
 - AI-powered personalized recommendations
 
 ## 📸 Screenshot
-
+![alt text](image.png)
 
 ```
 assets/screenshot.png
