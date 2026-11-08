@@ -12,7 +12,7 @@ Mood Tunes is a simple and interactive web application that recommends songs bas
   - Bored
   - Romantic
   - Energetic
-- 🔀 Shuffle buttow recommendations
+- 🔀 Shuffle button for new recommendations
 - 🎤 Displays song title, artist, and genre
 - 📱 Responsive and user-friendly interface
 - ⚡ Fast and lightweight application
