@@ -15,8 +15,7 @@ Mood Tunes is a simple and interactive web application that recommends songs bas
 - 🔀 Shuffle button for new recommendations
 - 🎤 Displays song title, artist, and genre
 - 📱 Responsive and user-friendly interface
-- ⚡ Fast and lightweight application
-- 🎨 Clean and modern UI
+- ⚡ Fast and lightweightodern UI
 
 ## 🛠️ Technologies Used
 
